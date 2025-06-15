@@ -670,6 +670,7 @@ input::placeholder {
     height: 40px;
     padding-left: 38px;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-submit-btn {
@@ -710,7 +711,7 @@ input::placeholder {
     margin-bottom: 8px;
 }
 
-.modal-field .modal-comment {
+.modal-field-comment {
     margin-bottom: 16px
 }
 
@@ -761,7 +762,6 @@ input::placeholder {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     align-items: center;
 }
 
